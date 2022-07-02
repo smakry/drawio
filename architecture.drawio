@@ -1,20 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T07:46:54.440Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="KbCc9WMevY3b_P5U1a_v" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-02T07:59:26.249Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="Dqfz9NhhlbphY7ENK4x1" version="20.0.4" type="github">
   <diagram id="45RmcQwW8viM3m_gwqca" name="Page-1">
     <mxGraphModel dx="2061" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rf_tWpSHwQ17WiCS_95F-34" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;labelBackgroundColor=none;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1180" width="695" height="205" as="geometry" />
-        </mxCell>
-        <mxCell id="rf_tWpSHwQ17WiCS_95F-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-23" target="rf_tWpSHwQ17WiCS_95F-12">
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-34" target="rf_tWpSHwQ17WiCS_95F-59">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-34" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;labelBackgroundColor=none;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="1320" width="490" height="210" as="geometry" />
         </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.532;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-23" target="rf_tWpSHwQ17WiCS_95F-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.479;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-23" target="rf_tWpSHwQ17WiCS_95F-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="688" />
+              <mxPoint x="159" y="688" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-23" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;labelBackgroundColor=none;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="102.5" y="400.5" width="695" height="205" as="geometry" />
+          <mxGeometry x="70" y="400.5" width="800" height="539.5" as="geometry" />
         </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-21" target="rf_tWpSHwQ17WiCS_95F-23">
           <mxGeometry relative="1" as="geometry">
@@ -51,50 +59,86 @@
         <mxCell id="rf_tWpSHwQ17WiCS_95F-9" value="网关服务集群：&lt;br&gt;1. 负责客户端连接及消息转发到game&lt;br&gt;2. 保持客户端到服务端的连接，没有任何逻辑&lt;br&gt;3. 只做消息的加密和解密&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. 以及客户端和服务端之间的消息转发（中介）&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="-190" y="130" width="290" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="rf_tWpSHwQ17WiCS_95F-11" value="game server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="460" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-12" value="游戏服务：&lt;br&gt;1. 提供游戏服务&lt;br&gt;2. 常规只需要单线程，游戏的瓶颈不在于cpu，是否有必要多线程" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="390" width="240" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="rf_tWpSHwQ17WiCS_95F-14" value="game server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="460" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rf_tWpSHwQ17WiCS_95F-15" value="game server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="460" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rf_tWpSHwQ17WiCS_95F-16" value="game server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="-190" y="410" width="240" height="140" as="geometry" />
         </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-29" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1242.5" width="60" height="80" as="geometry" />
+          <mxGeometry x="285" y="1385" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-30" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="785" y="1242.5" width="60" height="80" as="geometry" />
+          <mxGeometry x="380" y="1385" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rf_tWpSHwQ17WiCS_95F-31" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="867" y="1242.5" width="60" height="80" as="geometry" />
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-31" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="462" y="1385" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rf_tWpSHwQ17WiCS_95F-32" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1242.5" width="60" height="80" as="geometry" />
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-32" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1385" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rf_tWpSHwQ17WiCS_95F-33" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1242.5" width="60" height="80" as="geometry" />
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-33" value="Memcache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="645" y="1385" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.517;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-41" target="rf_tWpSHwQ17WiCS_95F-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-41" target="rf_tWpSHwQ17WiCS_95F-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-41" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;labelBackgroundColor=none;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="510" y="840" width="695" height="205" as="geometry" />
+          <mxGeometry x="122.5" y="1040" width="695" height="205" as="geometry" />
         </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-42" value="DBServer" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="570" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="182.5" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-43" value="DBServer" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="790" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="402.5" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rf_tWpSHwQ17WiCS_95F-44" value="DBServer" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="912.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="612.5" y="1112.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-47" target="rf_tWpSHwQ17WiCS_95F-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-47" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;labelBackgroundColor=none;fillColor=#F5F5F5;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="670" width="520" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-48" value="GameManager" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="725" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-49" value="GameManager" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="725" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-50" value="GameManager" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="590" y="725" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-53" target="rf_tWpSHwQ17WiCS_95F-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-53" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;labelBackgroundColor=none;fillColor=#F5F5F5;" vertex="1" parent="1">
+          <mxGeometry x="165" y="450" width="637.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-11" value="game server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-14" value="game server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-15" value="game server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-16" value="game server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.003;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-53" target="rf_tWpSHwQ17WiCS_95F-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-55" value="管理游戏服务的服务：&lt;br&gt;1. 负责管理所有game的server&lt;br&gt;2. game server之间消息转发&lt;br&gt;3. 提供广播到所有game到功能" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFFFF;labelBackgroundColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="710" width="230" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-57" value="数据库服务：&lt;br&gt;1. 实现数据库的读写&lt;br&gt;2. 异步读写数据库数据" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFFFF;labelBackgroundColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1051.5" width="170" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-59" value="数据库：&lt;br&gt;1. 数据存储介质" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFFFF;labelBackgroundColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1385" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
