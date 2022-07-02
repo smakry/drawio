@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T07:29:11.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" version="20.0.4" etag="3RdiG0A5x7t3OX-6z61S" type="github"><diagram id="45RmcQwW8viM3m_gwqca">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-02T07:35:49.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="8bjiHc7ZqUgwDTfVT6mD" version="20.0.4" type="github">
+  <diagram id="45RmcQwW8viM3m_gwqca" name="Page-1">
+    <mxGraphModel dx="2061" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-2" target="rf_tWpSHwQ17WiCS_95F-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-2" target="rf_tWpSHwQ17WiCS_95F-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-2" target="rf_tWpSHwQ17WiCS_95F-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-2" value="client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rf_tWpSHwQ17WiCS_95F-3" target="rf_tWpSHwQ17WiCS_95F-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-3" value="gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-4" value="gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-5" value="gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_tWpSHwQ17WiCS_95F-9" value="网关服务集群：&lt;br&gt;1. 负责客户端连接及消息转发到game&lt;br&gt;2. 保持客户端到服务端的连接，没有任何逻辑&lt;br&gt;3. 只做消息的加密和解密&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. 以及客户端和服务端之间的消息转发（中介）&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="160" width="290" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
