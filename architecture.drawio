@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T09:24:25.377Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="N-zp7sLvneehRGdTSwg3" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-09T06:05:39.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="vyicIq0GBKzAwjGZF0Sq" version="20.0.4" type="github">
   <diagram id="45RmcQwW8viM3m_gwqca" name="Page-1">
     <mxGraphModel dx="2061" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,6 +136,18 @@
         </mxCell>
         <mxCell id="QQ_ctUf82U5jvgfxY8eZ-1" value="备&lt;br&gt;GameManager" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="555" y="725" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_ctUf82U5jvgfxY8eZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QQ_ctUf82U5jvgfxY8eZ-2" target="QQ_ctUf82U5jvgfxY8eZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_ctUf82U5jvgfxY8eZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QQ_ctUf82U5jvgfxY8eZ-2" target="rf_tWpSHwQ17WiCS_95F-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_ctUf82U5jvgfxY8eZ-2" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;platform server&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ_ctUf82U5jvgfxY8eZ-3" value="运营后台管理服务：&lt;br&gt;1. 运营后台管理玩家数据&lt;br&gt;2. 运营后台管理游戏服务器" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="460" width="210" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
